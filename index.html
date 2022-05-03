@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lemme Mess With You</title>
+</head>
+<body>
+<script type="text/javascript">
+    var randNum = Math.floor(Math.random() * 10);
+
+    var randURLs = [
+        "https://www.youtube.com/watch?v=y6120QOlsfU",
+        "https://www.youtube.com/watch?v=DnPJ7jp9lHQ",
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    ];
+
+    if (randNum > 0 && randNum < 10) {
+        var randURL = Math.floor(Math.random() * randURLs.length);
+        window.location.href = randURLs[randURL];
+    }
+</script>
+<h1 style="text-align: center; align-content: center;"> Gotch</h1>
+</body>
+</html>
